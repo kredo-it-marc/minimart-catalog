@@ -12,7 +12,7 @@
         <div class="card w-50 mx-auto">
             <div class="card-body text-center">
                 <h1 class="display-1"><i class="fa-solid fa-triangle-exclamation text-danger"></i></h1>
-                <p>Are you sure you want to delete product <strong class="fst-italic"><?= $product_details["title"]?></strong>?</p>
+                <p>Are you sure you want to delete product <strong class="fst-italic">product name here</strong>?</p>
 
                 <div class="row justify-content-center mt-4">
                     <div class="col-3">
@@ -20,7 +20,7 @@
                     </div>
                     <div class="col-3">
                         <form action="" method="post">
-                            <input type="hidden" name="product_id" value="<?= $product_details["id"] ?>">
+                            <input type="hidden" name="product_id" value="">
                             <input type="submit" value="Delete" class="btn btn-danger btn-sm w-100" name="btn_delete">
                         </form>
                     </div>
